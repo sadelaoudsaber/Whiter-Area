@@ -1,0 +1,184 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Home section styles */
+#home {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.home-img {
+    margin-bottom: 20px;
+}
+
+.home-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #777;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #777;
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About section styles */
+#about {
+    background-color: #d2b48c; /* Light brown color */
+    padding: 100px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #777;
+}
+
+/* Skills section styles */
+#skills {
+    background-color: #8b5a2b; /* Brown color */
+    padding: 100px 0;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#skills h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Services section styles */
+#services {
+    background-color: #90ee90; /* Light green color */
+    padding: 100px 0;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#services h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#services a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #ffffe0; /* Light yellow color */
+    padding: 100px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+form input[type="button"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+}
